@@ -1,4 +1,4 @@
-from functions import Nhd as nhd
+from pybis.nhd import Nhd as nhd
 import requests
 import json
 import sciencebasepy
