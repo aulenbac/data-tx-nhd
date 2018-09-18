@@ -10,7 +10,7 @@ sb = sciencebasepy.SbSession()
 username = input("Username:  ")
 sb.loginc(str(username))
 
-nhdRepositoryListings = requests.get('https://www.sciencebase.gov/catalog/items?filter=tags%3DNHDPlusV1&max=20&format=json&fields=files').json()
+nhdRepositoryListings = requests.get('https://www.sciencebase.gov/catalog/items?parentId=5644f3c1e4b0aafbcd0188f1&filter=tags%3DNHDPlusV1&max=20&format=json&fields=files').json()
 
 for item in nhdRepositoryListings['items']:
     thisFileName = item['id'] + '_SourceCatalog.json'
