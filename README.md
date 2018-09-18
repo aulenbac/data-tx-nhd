@@ -14,3 +14,6 @@ We will continue building on this idea for processing NHDPlusV2 and other aspect
 * Use ScienceBase where it makes sense as a caching location for forms of data that we need to use, that we may manipulate with code in various ways to transform for our use, and that we treat as a semi-permanent repository that helps us sustain our system and show where everything comes from.
 * Build core logic for these processes into the pybis Python package or some other applicable codebase as a cohesive point of management and versioning over time.
 * Build the actual data-building code workflows with the ability to be re-run at any time to build our data for use - perhaps on a different platform or with slight variation in processing logic.
+
+# USGS Provisional Software
+This software is preliminary or provisional and is subject to revision. It is being provided to meet the need for timely best science. The software has not received final approval by the U.S. Geological Survey (USGS). No warranty, expressed or implied, is made by the USGS or the U.S. Government as to the functionality of the software and related material nor shall the fact of release constitute any such warranty. The software is provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the software.
